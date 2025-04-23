@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/860b00ed0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+    <div id="header">
+        <div class="container">
+            <!-- <img src="images/bg.jpg" class="bg"> -->
+            
+            <nav>
+                <img src="images/logo.png" class="logo">
+            
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Achievements</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>BTech Computer Science</p>
+                <h1>Hi, I'm <span>Rashmi</span><br>Kushwaha From Lucknow, India</h1>
+
+            </div>
+        </div>
+    </div>
+    </header>
+<!-- ---------about--------- -->
+ <section>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate and driven Computer Science undergraduate at IET Lucknow, with a strong foundation in data structures, algorithms, and web development. I enjoy solving real-world problems through code and have developed projects like an Amazon clone and a personal portfolio website to sharpen my skills. With over 150 problems solved on LeetCode and active participation in coding contests on Codeforces and CodeChef, I continuously strive to improve my problem-solving abilities. Beyond academics, I’m an enthusiastic team player involved in volunteering, event management, and creative clubs. I aim to grow as a developer while contributing meaningfully to innovative tech solutions.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>💻 Programming Languages</span><br>Python – Proficient in writing clean, efficient scripts and solving algorithmic problems. <br>
+
+                                C/C++ – Strong foundation in memory management, object-oriented programming, and DSA. <br>
+                                
+                                SQL – Basic knowledge of querying and managing relational databases. <br>
+                                
+                                </li>
+                            <li><span>🧠 Core Competencies</span><br>Data Structures & Algorithms – Well-versed in arrays, linked lists, trees, graphs, recursion, dynamic programming, etc., with over 150 questions solved on LeetCode. <br>
+
+                                Competitive Programming – Active on Codeforces, CodeChef, and HackerRank; experienced in timed contests and optimizing code under constraints. <br>
+                                
+                                Web Development:Projects include a functional Amazon clone and a remote interview platform website. <br>
+                                
+                              
+                                Version Control: Git, GitHub
+                                
+                                
+                            </li>
+                            <li><span>🌟 Soft Skills</span><br>Problem Solving – Analytical thinker with a logical approach to tackling coding challenges. <br>
+
+                                Leadership & Teamwork – Active participant in college clubs and event organization, with experience in leading team projects. <br>
+                                
+                                Public Speaking – Confident communicator, often involved in presentations and group discussions. <br>
+                                
+                                Time Management & Event Coordination – Balanced academics, coding practice, and volunteer roles efficiently.
+                                
+                                </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>No</span><br>Lorem ipsum dolortas tempora officia doloremque cum magni? Placeat asperiores magnam numquam velit aut veritatis nam laborum eaque quo, repellat corrupti iste earum ea.</li>
+                            <li><span>No</span><br>Lorem di repellendus at fugiat ducimus nihil molestias! Earum debitis corrupti aliquid minima. Ipsum suscipit necessitatibus tenetur incidunt distinctio reiciendis rem.</li>
+                            <li><span>No</span><br>Lorem ipsum rovident dolore fuga sequi consectetur laborum, magni explicabo ipsa consequuntur amet maiores adipisci repudiandae dignissimos voluptatum omnis, officia doloremque hic.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-current</span><br>Institute of Engineering and Technology (IET), Lucknow <br>
+                                Bachelor of Technology (B.Tech.) in Computer Science and Engineering <br>
+        
+                                
+                                YGPA: 8.57/10 <br>
+                                
+                                Relevant Coursework: 
+                                
+                                Data Structures & Algorithms (C language), Digital Logic & Computer Organization, Discrete Structures & Theory of Logic (DSTL)                              
+                                </li>
+                            <li><span>2020-2021</span><br>Class XII (Senior Secondary) <br>
+                                Lucknow Public School, Sector I, Lucknow <br>
+                
+                                Percentage: 96.2% <br>
+                                
+                                Relevant Subjects: Computer Science (Python), English</li>
+                            <li><span>2018-2019</span><br>Class X (Secondary) <br>
+                                Lucknow Public School, Sector I, Lucknow <br>
+                                
+                                Percentage: 97.4% <br>
+                                
+                                Relevant Subjects: Computer Applications, English</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-- --------------------services------------------------ -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Achievements</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-web-awesome"></i>
+                <h2>Hackathon</h2>
+                <p>
+                    2nd Rank in SIH 2023 (Internal Hackathon). <br> Team: WhiteHats 001 <br>
+
+                    Solved a real-world problem in a time-bound hackathon environment. <br>
+                    
+                    Recognized for innovative problem-solving and teamwork.
+                </p>
+                <a href="https://drive.google.com/file/d/15ECmZQuhtltyKNiXbw1jvUecYdUVTg2T/view">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Coding Platform</h2>
+                <p>CodeChef: 2-star (Max Rating: 1513) <br>CodeChef Starters 181 (Rated)
+                 
+                    Global Rank 463 (April 9, 2025)<br>
+
+                    Competed against thousands of participants in a timed programming contest.
+                    
+                </p>
+                <a href="https://www.codechef.com/users/kushwaha4_22">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+              
+                <h2>Coding Platform</h2>
+                <p>
+                    Codeforces: Newbie (Max Rating: 1120) <br>Codeforces Round 942 (Div 2) – Global Rank 4601 (April 30, 2024) <br>
+
+Secured a position among 25,000+ participants in a high-intensity coding competition.
+                </p>
+                <a href="https://codeforces.com/profile/RashmiKushwaha_22">Learn more</a>
+            </div>
+
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+              
+                <h2>Coding Platform</h2>
+                <p>
+                    LeetCode: 150+ problems solved (DSA practice)
+                </p>
+                <a href="https://leetcode.com/u/RashmiKushwaha_22/">Learn more</a>
+            </div>
+        </div>
+       
+    </div>
+ </div>
+
+<!----------------------------portfolio---------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <!-- <div class="work">
+                <img src="images/work 1.jpeg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates error, nostrum ex eligendi saepe provident dicta eius omnis dolorum nesciunt, sequi expedita na</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div> -->
+            <div class="work">
+                <img src="images/work 2.png">
+                <div class="layer">
+                    <h3>Amazon Clone</h3>
+                    <p>Objective:
+                        Developed a fully functional e-commerce website clone mimicking Amazon’s core features to understand front-end development and user experience design. <br>
+                        
+                        Key Features:
+                        
+                        User Interface: Replicated Amazon’s layout with a responsive design (product grid, search bar, cart icon). <br>
+                        
+                        Interactive Elements:
+                        
+                        Product hover effects, add-to-cart functionality, and dynamic cart updates using JavaScript.
+                        
+                        Mock checkout flow for a seamless user journey. <br>
+                        
+                        Tech Stack: HTML5, CSS3, JavaScript (front-end), GitHub for version control.</p>
+                    <a href="https://github.com/RashmiKushwaha0563/Amazon_clone"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work 3.png">
+                <div class="layer">
+                    <h3>Remote Interview Platform</h3>
+                    <p>
+                        A video interview management system that allows: <br>
+                        
+                        Role-based access (Interviewers & Candidates), Meeting scheduling with calendar/time selection, Video calls via Stream.io integration, Interview management (view/create/delete), User profiles with Clerk authentication <br>
+                        
+                        Key Features: <br>
+                        ✅ Secure authentication (Clerk) <br>
+              
+                        ✅ Video call integration (Stream) <br>
+                        ✅ Real-time database (Convex) <br>
+                        Built with:  <br>
+                        Next.js, TypeScript, Tailwind CSS, and modern web APIs.
+                      </p>
+                    <a href="https://github.com/RashmiKushwaha0563/CodeSync"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rashmikushwaha7439@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9452974977</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/9452974977"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/rashmi-kushwaha-962447271/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/rashmikushwaha0563?igsh=eDVtMzZqeG5iNWR2"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Rashmi. Made with<i class="fa-solid fa-heart"></i> by Rashmi Kushwaha </p>
+    </div>
+</div>
+</section>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>  
+<script>
+    var sidemnu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemnu.style.right = "0";
+    }
+    function closemenu(){
+        sidemnu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxQ0abc0U14va5-O3uE4VrIFESD9Ao-D2odMYnHbKj87n8HUVMy5PujR82Kcg62UvSzgQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    
+
+</body>
+</html>
