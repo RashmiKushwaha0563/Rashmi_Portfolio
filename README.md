@@ -2,6 +2,7 @@
 
 A modern, responsive portfolio website to showcase my skills, projects, and professional journey as a BTech Computer Science student.
 
+![Portfolio Screenshot](./images/ss.png)
 
 ## 🚀 Features
 
